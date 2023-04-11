@@ -78,6 +78,7 @@ return Scaffold(
 appBar: AppBar(
 title: Text(surah.name),
 ),
+//commint
 body: ListView.builder(
 itemCount: surah.ayahs.length,
 itemBuilder: (context, index) {
