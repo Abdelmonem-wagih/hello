@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-
-import 'home.dart';
-
 void main() {
   runApp(const MyApp());
 }
@@ -17,7 +14,7 @@ class MyApp extends StatelessWidget {
       
         primarySwatch: Colors.blue,
       ),
-      home: QuranScreen()
+      
     );
   }
 }
